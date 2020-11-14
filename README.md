@@ -1,0 +1,2 @@
+# GluttonK.github.io
+MyBlog
