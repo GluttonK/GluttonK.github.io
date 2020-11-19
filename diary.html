@@ -30,7 +30,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body>
-    <!-- Side Navbar -->
+    <!-- Side Navbar 左侧导航栏 -->
     <nav class="side-navbar">
       <div class="side-navbar-wrapper">
         <!-- Sidebar Header    -->
@@ -54,8 +54,8 @@
         <div class="admin-menu">
           <h5 class="sidenav-heading">Articles</h5>
           <ul id="side-admin-menu" class="side-menu list-unstyled"> 
-            <li> <a href="demo.html"> <i class="icon-screen"> </i>Demo</a></li>
-            <li> <a href="demo.html"> <i class="icon-screen"> </i>Demo</a></li>
+            <li> <a href="#"> <i class="icon-screen"> </i>Demo</a></li>
+            <li> <a href="#"> <i class="icon-screen"> </i>Demo</a></li>
             <li> <a href="diary.html"> <i class="fa fa-book"> </i>Diary</a></li>
             <li> <a href="wjl_photos.html"> <i class="icon-picture"> </i>Photos</a></li>
           </ul>
@@ -80,7 +80,7 @@
 					<li><a rel="nofollow" href="#" class="dropdown-item"> <img src="img/flags/16/CN.png" alt="English" class="mr-2"><span>China</span></a></li>
                   </ul>
                 </li>
-               
+                
               </ul>
             </div>
           </div>
@@ -91,201 +91,98 @@
         <div class="container-fluid">
           <ul class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active">Tables       </li>
+            <li class="breadcrumb-item active">Diary       </li>
           </ul>
         </div>
       </div>
-      <section>
+      <section class="charts">
         <div class="container-fluid">
           <!-- Page Header-->
           <header> 
-            <h1 class="h3 display">Tables            </h1>
+            <h1 class="h3 display">Diary            </h1>
           </header>
-          <div class="row">
+          <!-- <div class="row"> -->
+		  <div class="col">
+		  <!-- row是按行排列col是按列排列 -->
+			  
+			<!-- 第一个卡片 -->
             <div class="col-lg-6">
-              <div class="card">
-                <div class="card-header">
-                  <h4>Basic Table</h4>
+              <div class="card line-chart-example">
+                <div class="card-header d-flex align-items-center">
+                  <h4>First Card Example</h4>
                 </div>
                 <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>First Name</th>
-                          <th>Last Name</th>
-                          <th>Username</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                          <td>@twitter</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  <!-- 卡片1的内容 -->
+				  <p></p>
                 </div>
               </div>
             </div>
+			
             <div class="col-lg-6">
-              <div class="card">
-                <div class="card-header">
-                  <h4>Striped Table</h4>
+              <div class="card bar-chart-example">
+                <div class="card-header d-flex align-items-center">
+                  <h4>Second Card Example</h4>
                 </div>
                 <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>First Name</th>
-                          <th>Last Name</th>
-                          <th>Username</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                          <td>@twitter                            </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  <!-- 卡片2的内容 -->
+				  
                 </div>
               </div>
             </div>
+			
             <div class="col-lg-6">
-              <div class="card">
-                <div class="card-header">
-                  <h4>Striped table with hover effect</h4>
+              <div class="card pie-chart-example">
+                <div class="card-header d-flex align-items-center">
+                  <h4>Third Card Example</h4>
                 </div>
                 <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-striped table-hover">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>First Name</th>
-                          <th>Last Name</th>
-                          <th>Username</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                          <td>@twitter                            </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    <!-- 卡片3的内容 -->
+					
                   </div>
                 </div>
               </div>
-            </div>
+			
             <div class="col-lg-6">
-              <div class="card">
-                <div class="card-header">
-                  <h4>Compact Table</h4>
+              <div class="card polar-chart-example">
+                <div class="card-header d-flex align-items-center">
+                  <h4>Fourth Card Example</h4>
                 </div>
                 <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-striped table-sm">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>First Name</th>
-                          <th>Last Name</th>
-                          <th>Username</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                          <td>@twitter      </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">4</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">5</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">6</th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                          <td>@twitter       </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    <!-- 卡片4的内容 -->
+					
                   </div>
                 </div>
               </div>
-            </div>
+            
+			<div class="col-lg-6">
+			  <div class="card polar-chart-example">
+			    <div class="card-header d-flex align-items-center">
+			      <h4>Fifth Card Example</h4>
+			    </div>
+			    <div class="card-body">
+			        <!-- 卡片5的内容 -->
+					
+			      </div>
+			    </div>
+			  </div>
+			
+			<div class="col-lg-6">
+			  <div class="card polar-chart-example">
+			    <div class="card-header d-flex align-items-center">
+			      <h4>Sixth Card Example</h4>
+			    </div>
+			    <div class="card-body">
+			        <!-- 卡片6的内容 -->
+					
+			      </div>
+			    </div>
+			  </div>
+			
+			
+           
           </div>
-        </div>
+		
+		
       </section>
       <footer class="main-footer">
         <div class="container-fluid">
@@ -310,6 +207,7 @@
     <script src="vendor/chart.js/Chart.min.js"></script>
     <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
     <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/charts-custom.js"></script>
     <!-- Main File-->
     <script src="js/front.js"></script>
   </body>
